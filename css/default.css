@@ -1,0 +1,129 @@
+/** main container */
+.wow-progress {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+/** error msg */
+.wow-progress p.wp_error {
+	padding: 7px;
+	color: red;
+}
+
+.wp-content:after {
+	clear: both;
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+
+.wow-progress p {
+	margin: 0;
+	padding: 0;
+}
+
+/** guild and realmname */
+.wow-progress .guildrealm {
+	margin-top: 10px;
+	text-align: center;
+}
+.wow-progress .guildname,
+.wow-progress .guildname a,
+.wow-progress .guildname a:hover {
+	margin: 2px;
+	text-align: center;
+	font-size: 120%;
+	color: #E59900;
+	text-decoration: none;
+	background: none;
+}
+.wow-progress .realmname {
+	text-align: center;
+	margin: 2px;
+	color: #999;
+	font-size: 110%;
+}
+
+/** --- ranks list --- */
+.wow-progress dl.wp-ranking {
+	float: left;
+	margin: 7px 0;
+	width: 100%;
+}
+
+/** default styles for dd and dt */
+.wp-ranking dt {
+	clear: left;
+	float: left;
+	width: 40%;
+	font-weight: bold;
+}
+.wp-ranking dd {
+	float: left;
+	margin: 0;
+	padding: 0;
+	/**width: 20%;*/ 
+	text-align: center;
+}
+
+/** ranking list head line */
+.wp-ranking dt.tierset-label {
+	text-align: center;
+}
+.wp-ranking dt.tierset-label,
+.wp-ranking dd.rank-def,
+.wp-ranking dd.rank-10,
+.wp-ranking dd.rank-25 {
+	margin-bottom: 3px;
+	padding: 2px 0;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	color: #444;
+}
+
+/** dt rank labels */
+.wp-ranking dt.world-rank-label,
+.wp-ranking dt.area-rank-label,
+.wp-ranking dt.realm-rank-label,
+.wp-ranking dt.score-rank-label {
+	margin-top: 3px;
+	text-indent: 6px;
+	font-size: 92%;
+}
+
+/** dd ranks */
+.wp-ranking dd.world-rank-def,
+.wp-ranking dd.world-rank-10,
+.wp-ranking dd.world-rank-25,
+.wp-ranking dd.area-rank-def,
+.wp-ranking dd.area-rank-10,
+.wp-ranking dd.area-rank-25,
+.wp-ranking dd.realm-rank-def,
+.wp-ranking dd.realm-rank-10,
+.wp-ranking dd.realm-rank-25 {
+	margin-top: 3px;
+	font-size: 95%;
+}
+
+/** make scores a bit smaller */
+.wp-ranking dd.score-rank-def,
+.wp-ranking dd.score-rank-10,
+.wp-ranking dd.score-rank-25 {
+	margin-top: 3px;
+	font-size: 82%;
+}
+
+/** wowprogress.com link */
+.wow-progress p.wplink,
+.wow-progress p.wplink a,
+.wow-progress p.wplink a:hover {
+	text-align: center;
+	font-size: 88%;
+	color: #999;
+	text-decoration: none;
+	background: none;
+}

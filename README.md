@@ -1,2 +1,2 @@
-mod_wowprogress_ranks
+Simple module to display guild ranks from wowprogress.com
 =====================
