@@ -54,17 +54,18 @@
 
 			<fieldset name="rankoptions">
 				<!-- If there is a new tier set you only have to add a option here, so long wowprogress.com not changing something.
-				Example Tier 13: <option value="tier13">Tier 13</option> -->
+				Example Tier 13: <option value="tier14">Tier 14</option> -->
 				<field
 					name="tierRanks"
 					type="list"
-					default="tier12"
+					default="tier13"
 					label="MOD_WOWPROGRESS_RANKS_FIELD_TIERRANKS_LABEL"
 					description="MOD_WOWPROGRESS_RANKS_FIELD_TIERRANKS_DESC"
 					filter="string">
 
 					<option value="tier11">MOD_WOWPROGRESS_RANKS_FIELD_TIERRANKS_TIER11</option>
 					<option value="tier12">MOD_WOWPROGRESS_RANKS_FIELD_TIERRANKS_TIER12</option>
+					<option value="tier13">MOD_WOWPROGRESS_RANKS_FIELD_TIERRANKS_TIER13</option>
 				</field>
 				<field
 					name="showDefRanks"
