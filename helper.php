@@ -185,7 +185,7 @@ abstract class modWowProgressRanksHelper
 			}
 		}
 
-		// make a one line for the <head>
+		// make a one liner for the <head>
 		$pattern = array();	$replace = array();
 		// remove comments
 		$pattern[] = '!/\*[^*]*\*+([^/][^*]*\*+)*/!';	$replace[] = '';

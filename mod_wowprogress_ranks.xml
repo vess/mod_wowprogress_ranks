@@ -3,7 +3,7 @@
 	<name>WoWProgress Ranks</name>
 	<author>Sven Versteegen</author>
 	<creationDate>Jun 2012</creationDate>
-	<copyright>Copyright (C) 2009-2012 Sven Versteegen</copyright>
+	<copyright>Copyright (C) 2012-2013 Sven Versteegen</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<authorEmail>redeye.vess@gmail.com</authorEmail>
 	<authorUrl>http://joomworker.com</authorUrl>
@@ -63,9 +63,9 @@
 					description="MOD_WOWPROGRESS_RANKS_FIELD_TIERRANKS_DESC"
 					filter="string">
 
-					<option value="tier11">MOD_WOWPROGRESS_RANKS_FIELD_TIERRANKS_TIER11</option>
-					<option value="tier12">MOD_WOWPROGRESS_RANKS_FIELD_TIERRANKS_TIER12</option>
-					<option value="tier13">MOD_WOWPROGRESS_RANKS_FIELD_TIERRANKS_TIER13</option>
+					<option value="tier14">MOD_WOWPROGRESS_RANKS_FIELD_TIERRANKS_TIER14</option>
+					<option value="tier15">MOD_WOWPROGRESS_RANKS_FIELD_TIERRANKS_TIER15</option>
+					<option value="tier16">MOD_WOWPROGRESS_RANKS_FIELD_TIERRANKS_TIER16</option>
 				</field>
 				<field
 					name="showDefRanks"
